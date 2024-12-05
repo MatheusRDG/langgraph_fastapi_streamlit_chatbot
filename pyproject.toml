@@ -1,0 +1,19 @@
+[project]
+name = "langgraph-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "duckduckgo-search>=6.3.7",
+    "fastapi[standard]>=0.115.6",
+    "isort>=5.13.2",
+    "langchain-community>=0.3.9",
+    "langchain-openai>=0.2.11",
+    "langchain>=0.3.9",
+    "langgraph>=0.2.54",
+    "python-dotenv>=1.0.1",
+    "sqlalchemy>=2.0.36",
+    "streamlit>=1.40.2",
+    "uvicorn>=0.32.1",
+]
